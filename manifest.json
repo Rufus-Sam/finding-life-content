@@ -70,6 +70,13 @@
       "source": "22b07045e8029e77515369d71e85c2270fe53ab83b178554c9717e54e0f915e9",
       "version": 1
     },
+    "sw": {
+      "file": "packs/sw-1.pack",
+      "sha256": "6a4fce0214cafe7a5cf8a1d958a4f2a17e3db22f01382a8a2f29a2a7037f9c09",
+      "size": 1831003,
+      "source": "1a35cea41b7892956d6dc01b98354823b69e6b64e5281a5af3bc3b447c351c55",
+      "version": 1
+    },
     "ta": {
       "file": "packs/ta-4.pack",
       "sha256": "fb73ee194674c9eeb86da6a3c33eedad36b5bdee8f70717dec08f1cbcb514821",
