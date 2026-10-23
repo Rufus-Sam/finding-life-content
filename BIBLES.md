@@ -26,8 +26,10 @@ renumbering rule and text fix, and lists the empty verses.
 
 ## Notes and open decisions
 
-- **CC BY-SA (hi, ta):** the app must show the attribution text above, for example on an About or Credits
-  screen. Our changed `hi.json` and `ta.json` must also stay under CC BY-SA 4.0. That covers the Bible files
+- **CC BY-SA (hi, ta, ml, te, sw) and CC BY (pt):** the app shows the attribution text above in Settings, About.
+  The packs are encrypted, and these licences forbid technical measures that stop reuse, so `build_packs.py` also
+  publishes these Bibles unencrypted in the content repo's `bibles/` folder, under their own licences.
+  Our changed files must also stay under CC BY-SA 4.0 (CC BY 4.0 for pt). That covers the Bible files
   only, not the app code.
 - **zh:** every digital CUV we found, including CrossWire's "1919" ChiUns module, has the 1988 New Punctuation
   text. eBible.org and CrossWire both list it as public domain. The punctuation editors (the Hong Kong Bible
