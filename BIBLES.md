@@ -18,6 +18,11 @@ renumbering rule and text fix, and lists the empty verses.
 | ta | Indian Revised Version (IRV) Tamil | 2019 | CC BY-SA 4.0 | https://ebible.org/tam2017/ | "Indian Revised Version (IRV) Tamil, © 2017, 2019 Bridge Connectivity Solutions Pvt. Ltd., https://ebible.org/tam2017/, licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Changed: footnotes and cross-references removed, verse numbering aligned to the KJV." |
 | ja | 文語訳: Meiji Version (明治元訳) OT and Taisho Revision (大正改訳) NT | 1887 / 1917 | Public domain | https://github.com/scrollmapper/bible_databases (`sources/ja/JapBungo`, from CrossWire module JapBungo) | None |
 | ko | Korean Revised Version (개역한글) | 1961 | Public domain in Korea (term ended 2011). US status uncertain, see below | https://github.com/scrollmapper/bible_databases (`sources/ko/KorRV`, CrossWire module KorRV, text from Korean Wikisource) | None |
+| ml | Indian Revised Version (IRV) Malayalam (eBible.org edition "BCS 2025") | 2019 | CC BY-SA 4.0 | https://ebible.org/mal/ | "Indian Revised Version (IRV) Malayalam, © 2017, 2019 Bridge Communication Systems (Bridge Connectivity Solutions Pvt. Ltd.), https://ebible.org/mal/, licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Changed: footnotes and cross-references removed, verse numbering aligned to the KJV." |
+| te | Indian Revised Version (IRV) Telugu | 2019 | CC BY-SA 4.0 | https://ebible.org/tel2017/ | "Indian Revised Version (IRV) Telugu, © 2017, 2019 Bridge Connectivity Solutions, https://ebible.org/tel2017/, licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Changed: footnotes, cross-references and the Song of Songs speaker notes removed, verse numbering aligned to the KJV." |
+| es | Reina-Valera | 1909 | Public domain | https://ebible.org/spaRV1909/ | None |
+| pt | Bíblia Livre (BLIVRE), Almeida 1819 Textus Receptus revised | 2018 | CC BY 4.0 Brasil | https://ebible.org/porbr2018/ | "Bíblia Livre (BLIVRE), Copyright © Diego Santos, Mario Sérgio, e Marco Teles, http://sites.google.com/site/biblialivre/ - fevereiro de 2018. Licença Creative Commons Atribuição 4.0 Brasil (http://creativecommons.org/licenses/by/4.0/br/). From https://ebible.org/porbr2018/. Changed: footnotes removed, verse numbering aligned to the KJV." |
+| sw | Biblia Takatifu: Swahili Unlocked Literal Bible (ULB) | 2019 | CC BY-SA 4.0 | https://ebible.org/swhulb/ | "Biblia Takatifu, Swahili Unlocked Literal Bible, © 2019 Door43 World Missions Community, https://ebible.org/swhulb/, licensed CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Changed: verse numbering aligned to the KJV, book-name spacing and one stray asterisk (REV 20:15) fixed." |
 
 ## Notes and open decisions
 
@@ -35,3 +40,22 @@ renumbering rule and text fix, and lists the empty verses.
   protect it until about 2056. The other choices are the 1911 Korean Bible (public domain everywhere, but in
   archaic Korean; on eBible.org as `kor`, with one chapter missing) or a licence for 개역개정 from the Korean
   Bible Society.
+- **CC BY-SA (ml, te, sw) and CC BY (pt):** the same applies: show the attribution text above in the app.
+  `pt.json` is CC BY 4.0, so it needs credit but not share-alike.
+- **sw:** a word-for-word translation, used instead of Neno: Bibilia Takatifu (Biblica, meaning-based). The
+  Swahili Union Version (1952) is still under the Bible Societies' copyright. Psalm titles are a plain paragraph
+  before verse 1 in this source; the script puts them at the start of verse 1. Three verses are empty because the
+  source joins them into ranges or omits them: 1CH 6:79 (in 6:78), 1CH 8:18 (in 8:17), LUK 17:36.
+- **es:** eBible.org's digital Reina-Valera 1909 forces the Spanish chapter breaks into the KJV's verse counts.
+  It does this by joining the last two verses of a chapter. The script moves the verses back. The joined verses
+  stay joined, so the second verse of each pair is `""`: NUM 13:33, NUM 30:16, 1SA 24:22, 2SA 20:26, 2CH 33:11,
+  JOB 35:16, HOS 12:14, JON 2:10, ACT 19:41, 2CO 13:13. The largest case is Job 39:27, which holds the text of
+  KJV Job 39:27 to 40:5, so JOB 39:28-30 and 40:1-5 are empty.
+- **te:** 100 verses are empty because the IRV Telugu joins verses into ranges (for example Matthew 1:22-23).
+  The text is on the first verse of each range.
+- **id (Indonesian): not built.** We found no complete Protestant Bible in Indonesian that is free to
+  redistribute. Terjemahan Baru and Terjemahan Lama belong to the Indonesian Bible Society (LAI). Alkitab Yang
+  Terbuka (AYT, https://ebible.org/indayt/) is complete, but its licence is non-commercial (CC BY-NC-SA, or
+  BY-ND as eBible.org states it). Terjemahan Sederhana Indonesia (https://ebible.org/ind/, CC BY-SA 4.0) has only
+  the NT and 21 OT books. Alkitab Gratis untuk Semua (https://ebible.org/indags/, CC BY-SA 4.0) has only the NT.
+  Someone needs to choose: ask YLSA for permission to use AYT, license TB from LAI, or ship the partial TSI.
