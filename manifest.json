@@ -21,6 +21,13 @@
       "source": "3bee268676a47bc0712798328ecf40e4d4a8d3f7defeb0ddb3a27efc119d5f12",
       "version": 5
     },
+    "es": {
+      "file": "packs/es-1.pack",
+      "sha256": "532e3e47af0909342b90924350b4121a47293fbf12fb0ef409ce7bb7998ded63",
+      "size": 1836248,
+      "source": "51df9530cf1740bc48161e016ba8955f2d28bcb89a0a3d402e553547e624526b",
+      "version": 1
+    },
     "fr": {
       "file": "packs/fr-2.pack",
       "sha256": "704435cfbe7f191dcb86b9c586fc4a5ada08963d4786bef43f14fbc9d6beb090",
