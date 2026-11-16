@@ -15,11 +15,11 @@
       "version": 2
     },
     "en": {
-      "file": "packs/en-5.pack",
-      "sha256": "61b226584da498c38c12163a2618a9d999bc5be38e300d7c26fc6cf01e6adcb8",
-      "size": 1763857,
-      "source": "3bee268676a47bc0712798328ecf40e4d4a8d3f7defeb0ddb3a27efc119d5f12",
-      "version": 5
+      "file": "packs/en-8.pack",
+      "sha256": "39451941db4a04bd59b13a6905167b9f0257ec7832bc2fc850630a034e069857",
+      "size": 1843916,
+      "source": "ccf8e5f5238ef745f08799b9b1936b06db0c485cd7d7d32baeeb92e9146b2379",
+      "version": 8
     },
     "es": {
       "file": "packs/es-1.pack",
