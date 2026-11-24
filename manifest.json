@@ -1,102 +1,102 @@
 {
   "packs": {
     "ar": {
-      "file": "packs/ar-6.pack",
-      "sha256": "cd1826c4268a01c609b3b95f5036a2d5a4f3cdf0e32bd2253db7482f4fa1dff5",
-      "size": 2199917,
-      "source": "cb0a09e486d85dcae5ecee6f8ab084937a3c07e793976a0bef0c6d114982f990",
-      "version": 6
+      "file": "packs/ar-7.pack",
+      "sha256": "13d51a199158e78a47a6c53e7ba8d8643fe7981eabba55c16e4eb929194a91b7",
+      "size": 2210302,
+      "source": "c2cd465022cf236efc8348b39bd11406086638dd6b4e21c4f2ebb116cf33705d",
+      "version": 7
     },
     "de": {
-      "file": "packs/de-4.pack",
-      "sha256": "f9e78683675cfde2bd0974ee4543c2cfa91d00d3e4d1b45e7123f7908f570f35",
-      "size": 1998943,
-      "source": "e9dda846e55e9879ae9eb997919a210a90da05aa661ee1265e1773320cef6ef1",
-      "version": 4
-    },
-    "en": {
-      "file": "packs/en-8.pack",
-      "sha256": "ed4b1abb04baf28a6f86ec8a3a2f8b559636381d96e97b58f9dad856fce3f364",
-      "size": 1843916,
-      "source": "ccf8e5f5238ef745f08799b9b1936b06db0c485cd7d7d32baeeb92e9146b2379",
-      "version": 8
-    },
-    "es": {
-      "file": "packs/es-3.pack",
-      "sha256": "48a00c6e83a3b1f8b41f2a467ea995d08f22a5a6745af9ceea71786b07fd6484",
-      "size": 1922354,
-      "source": "8fe513e37f7f2f4585821ac99d09783e6d559c24e3e27d0809cc059c652d3120",
-      "version": 3
-    },
-    "fr": {
-      "file": "packs/fr-4.pack",
-      "sha256": "643b13ddaaf6df603ac5bf3325c3ebf948ce8ca1cb4cc4bf1b12a83b596d0210",
-      "size": 2018861,
-      "source": "872c40b1733f22d121faeff315e458c797b366ee6f7b8c8826e06d3f3fc6c419",
-      "version": 4
-    },
-    "hi": {
-      "file": "packs/hi-5.pack",
-      "sha256": "2732d1f8dccd2def2eae407a4dec352a63db12c1112831425d6e3ccd3f982b3d",
-      "size": 2456777,
-      "source": "152e7c1b6a57a3c2676ebb0643521aa09361064a4ddfe70ef80059ea8cb91e78",
+      "file": "packs/de-5.pack",
+      "sha256": "6c24857971551d4d0609234ea46c5b44aedb034e68b7b0d4794e0b578000863a",
+      "size": 2009010,
+      "source": "6d358dbb0090208cc2d0a0b46d0703236316ca320f7a2500f55d8ee310380bea",
       "version": 5
     },
-    "ja": {
-      "file": "packs/ja-6.pack",
-      "sha256": "86c4012e9a0b86e24dea3ef8d998ac974f0fc02eb278228269b7a70a0c45a735",
-      "size": 2035090,
-      "source": "50953d6aac4bf1fca9d9d53d8e8bff005ff9a2f77f71ba9254ee70e010c336c1",
+    "en": {
+      "file": "packs/en-9.pack",
+      "sha256": "a93f4d9b973e8e04db198be59d4ab1defef7fec7c1bae0954960f178d27b11ed",
+      "size": 1852632,
+      "source": "11822a5e86c5d02c1f270871892aa39442fb24566d1b5bf9161d3c4dbace31a0",
+      "version": 9
+    },
+    "es": {
+      "file": "packs/es-4.pack",
+      "sha256": "33c842440ccbd8fdbbae9f4d6b4f24463c0fc2d1fecabe4e94044d801b612e78",
+      "size": 1932034,
+      "source": "5601aa9a68dc739b9554be6fa173b111541ef6ffb80e22d78a7c804ac16a90be",
+      "version": 4
+    },
+    "fr": {
+      "file": "packs/fr-5.pack",
+      "sha256": "5ef35a4d9b64e86b649dff02cbb520a7e298a6ebb874731f6a44e6974f8ab103",
+      "size": 2028784,
+      "source": "6648b8d50e0b614a50aeccf52febc15b41b10a08c2cc6a819a87d6cc4c59c2d5",
+      "version": 5
+    },
+    "hi": {
+      "file": "packs/hi-6.pack",
+      "sha256": "5d83a94738fdae0c1ef5b8b4cc268734a9d64098295d391b6c6182c7a8f6dd35",
+      "size": 2468439,
+      "source": "7967513371c1d1b76af3c10c10ab3c0ccb20195664afb6b867d09c093acf02bb",
       "version": 6
+    },
+    "ja": {
+      "file": "packs/ja-7.pack",
+      "sha256": "e96ab28469ab8b42c07a5b1dcb2b4c934856314c88eb1b1f14c5f1242e0080a9",
+      "size": 2045667,
+      "source": "3ac3d6f21391b9d11c3b58feb1539bc3b13f1750d4c437fe545111753455bb18",
+      "version": 7
     },
     "ko": {
-      "file": "packs/ko-6.pack",
-      "sha256": "606872844a5a295e16e49f14210e524dc4435855e36d0f1bc4f4a17c89f36719",
-      "size": 1973236,
-      "source": "46bdaf178532680f464283973b22045e0407c2511e1cea99790fbd10d354724f",
-      "version": 6
+      "file": "packs/ko-7.pack",
+      "sha256": "c357efb8dcec9308139917e13e47498dcc29b0c697440d9ea04453c0a2e7e2ed",
+      "size": 1983398,
+      "source": "2ba78d225b0b740c6e85c1ca9b1eff91deb819b4c42b8c4c6718dc40f421bdb0",
+      "version": 7
     },
     "ml": {
-      "file": "packs/ml-3.pack",
-      "sha256": "9f46489b0f9775796205f34a7ebebb2b27e7aba2351e0e8dd794df4f78d2248a",
-      "size": 2540680,
-      "source": "6672e52d51632c8ae824492fcc69ec3f88312ad0b3aa77cf1c70b875516aa4ca",
-      "version": 3
+      "file": "packs/ml-4.pack",
+      "sha256": "d29df771b862662cb2d826adcd80419f35402e2da83501a26dd3557a6442f781",
+      "size": 2553238,
+      "source": "e51b20c83e1ea867dfe40905fad8fd4db9d2f6de74c9fd11cd5b8f35b364803b",
+      "version": 4
     },
     "pt": {
-      "file": "packs/pt-3.pack",
-      "sha256": "61b884c4fadf645ddbe89ca7d5c1543b4aa64542dad68947979cc4052241730a",
-      "size": 1908794,
-      "source": "b84bf85a6df2b12b5897772bc7366d47052aa06053d3ac98b861f76c1a48c481",
-      "version": 3
+      "file": "packs/pt-4.pack",
+      "sha256": "ccd6cb4612283d32f693f9d9631c774feb645a9506c17891c2e8ac19d7f39b3d",
+      "size": 1918421,
+      "source": "40c80275265157b21075ccb0928c4343da39b09b36e5aef7a0ac3678c370eb57",
+      "version": 4
     },
     "sw": {
-      "file": "packs/sw-3.pack",
-      "sha256": "f6956a35c1d773224d283a8adb31809c3c10efacc3626ce9ca905fb3594d42c5",
-      "size": 1911006,
-      "source": "9e94363cfaff8e7802bb4a0f101e01c32b7bc0f6daa9f1007d3c6b31999b50f6",
-      "version": 3
+      "file": "packs/sw-4.pack",
+      "sha256": "6f093d0ebeecff7cab6cf086738ddf331b54a913761d4b900283123442f26396",
+      "size": 1920217,
+      "source": "eaa089cbcfba6c258ee54337506a0464070eee2a8b950e8548c1f4753ec0221c",
+      "version": 4
     },
     "ta": {
-      "file": "packs/ta-6.pack",
-      "sha256": "37f40807ed1b2360f40c7abbb315eb4bfa7262efc250695bf8efe4c7a350a99c",
-      "size": 2569061,
-      "source": "738087b959372474da0abf887b96846f7c0fd980eefc982e275b605f96ab643b",
-      "version": 6
+      "file": "packs/ta-7.pack",
+      "sha256": "bea2e52cd26413f1545c71343ca08b8c2105cc9fad106207ade6c37d0b8c1cd1",
+      "size": 2581224,
+      "source": "e97e9f8b2322626a234e7b56f441834730076c41d1e930f59de6948a0a19cbc3",
+      "version": 7
     },
     "te": {
-      "file": "packs/te-3.pack",
-      "sha256": "4cf0e7129dbbb3701f3eefbca15692dea583a67a2bef9f89b65eabcf08126a85",
-      "size": 2531215,
-      "source": "dc8f1d93142931b56684f9c3fd6e8414d7c88ff4f862cc6e3f93fd53792aa55b",
-      "version": 3
+      "file": "packs/te-4.pack",
+      "sha256": "00cfc746ca9f38d6c7895d17483fce0b493043cc0deafa0ba41d9a62cb00752b",
+      "size": 2543106,
+      "source": "0d450c762bce48cf57e92d6927f51f7549c75b1194c59fe13b9d7fb8c55be0c6",
+      "version": 4
     },
     "zh": {
-      "file": "packs/zh-6.pack",
-      "sha256": "b9552733e24f68c7e170536b812095f72f9d0c4db1c1e29a16281acd3f99e443",
-      "size": 1846575,
-      "source": "c73ea538a4f5ba8a4b3f57cbfeeef640d57cb0865de2ba629be8cd58c66c1dba",
-      "version": 6
+      "file": "packs/zh-7.pack",
+      "sha256": "c447e880d8fe2c27e7a8d8e90c1e3beb7666b9bb2809548e7a9eaa4a318b4eed",
+      "size": 1856701,
+      "source": "5ede7f72634dee8d135a40c33c5772d92e50c2801c41767a45baee0c13e9b47c",
+      "version": 7
     }
   }
 }
